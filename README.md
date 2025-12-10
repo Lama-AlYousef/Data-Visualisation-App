@@ -1,15 +1,4 @@
-# Data Visualisation App – Extension Ideas
-
-This document lists possible features to extend the provided Data Visualisation App template using **only p5.js** and while maintaining the original project structure.
-
-Each feature category respects the assignment requirements:
-
-- No external libraries
-- No replacing/restructuring the template
-- No cloud-hosted dependencies
-- All extensions must be integrated into existing files
-
----
+# Data Visualization App – Extension Ideas
 
 ## ✅ Global Application-Level Feature Ideas
 
@@ -47,15 +36,9 @@ Possible components:
 
 - Use `saveCanvas()` to export PNG snapshots
 
----
-
-## 📊 Extensions per Visualisation
-
----
-
 ## 1. Tech Diversity: Gender (Stacked Bar Chart)
 
-### Possible Features
+### Tech Diversity Possible Features
 
 - Sorting based on:
   - Female proportion
@@ -68,18 +51,9 @@ Possible components:
 - Vertical scaling for smaller/larger datasets
 - Colour themes toggle (e.g., high contrast mode)
 
-### Coding Techniques
-
-- Arrays of objects
-- Sorting with `.sort()`
-- Rectangle hit detection
-- Mapping values to screen positions
-
----
-
 ## 2. Tech Diversity: Race (Pie Chart)
 
-### Possible Features
+### Tech Diversity Possible Features
 
 - Dropdown to select a company
 - Animated pie transitions
@@ -89,18 +63,9 @@ Possible components:
   - Stacked bar representation
 - Dynamic legend displayed on canvas
 
-### Coding Techniques
-
-- Using `createSelect()`
-- Arc math via `cos()/sin()`
-- Handling slice angles cumulatively
-- Object-based colour assignment
-
----
-
 ## 3. Pay Gap 1997–2017 (Line Graph)
 
-### Possible Features
+### Pay Gap Possible Features
 
 - Highlight selected year on mouse hover
 - Dynamic range filtering (sliders to limit year range)
@@ -108,18 +73,9 @@ Possible components:
 - Trend line (Moving average)
 - Annotation for max/min gaps
 
-### Coding Techniques
-
-- Sequential plotting with `line()`
-- Array model transformation from raw table rows
-- Helper mapping functions
-- Statistical calculation (mean, max, min)
-
----
-
 ## 4. Pay Gap by Job 2017 (Scatter Plot)
 
-### Possible Features
+### Pay Gap by Job 2017 Possible Features
 
 - Represent magnitude of gap using point size
 - Colour dots based on gap direction (male-favouring vs female-favouring)
@@ -127,37 +83,12 @@ Possible components:
 - Background quadrant shading
 - Legend showing colour ranges
 
-### Coding Techniques
-
-- Mapping two variables to X/Y axes
-- Colour scaling
-- Object arrays storing job-level data
-- Mouse interaction detection
-
----
-
 ## 5. Climate Change Visualisation (Temperature Line + Gradient)
 
-### Possible Features
+### Climate Change Possible Features
 
 - Gradient background per year based on temperature
 - Highlight years with highest anomalies
 - Draw second comparison line (e.g. rolling average)
 - Timeline scrubber for progressive reveal
 - Legend showing colour-coded temperature scale
-
-### Coding Techniques
-
-- Gradients using `rect(...) + fill(...)`
-- Mapping temperature values to colours
-- Overlaying line data after background draw
-
----
-
-## 🧠 Suggested Advanced Features for High Marks
-
-These show strong programming skills:
-
-### ✔ Reusable Class-Based System
-
-Example file structure:
